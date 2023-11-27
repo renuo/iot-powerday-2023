@@ -93,6 +93,13 @@ transition: slide-up
 
 ---
 
+# Market - Or why should I care?
+
+ * IoT Marketvolume in Switzerland grew rapidely:
+ * 6.76 bil in 2020 to 8.09 bil in 2021 (Source: https://iot-workshop.ch/)
+
+---
+
 # Terminology / Concepts
 
  * Sensors: A hardware device measuring something and broadcasting it
