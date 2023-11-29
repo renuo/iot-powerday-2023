@@ -13,5 +13,6 @@ python main.py -p <port> -u <endpoint_url>
 ## Start Presentation
 
 ```sh
+bun i
 bun run present
 ```

@@ -5,7 +5,7 @@
     "present": "bunx --bun slidev"
   },
   "dependencies": {
-    "@slidev/cli": "^0.44.0",
-    "@slidev/theme-seriph": "^0.21.3"
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest"
   }
 }
