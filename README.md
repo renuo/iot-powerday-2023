@@ -1,2 +1,5 @@
-# iot-powerday-2023
-Ressources for the IoT Powerday in 2023
+# Renuo IoT PowerDay 2023
+
+Ressources and results:
+
+* [Josua's summary](./josua/)
