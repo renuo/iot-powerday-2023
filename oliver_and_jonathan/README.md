@@ -40,11 +40,11 @@ Then we combined the two Arduino scripts to get the readings and write these to 
   #endif
   #include <InfluxDbClient.h>
   #include <InfluxDbCloud.h>
-  #define WIFI_SSID "Renuo Wifi"
-  #define WIFI_PASSWORD "stage-bitt-minus-lag"
-  #define INFLUXDB_URL "https://eu-central-1-1.aws.cloud2.influxdata.com"
-  #define INFLUXDB_TOKEN "6oALF2SzvJiqk31ax50bfG92rZo-Jshif3nzY-hw36iU-MkbyO142KSr2MpfBMCi0kDgmX70SArzpShXSku65w=="
-  #define INFLUXDB_ORG "31c89f2dc9a18594"
+  #define WIFI_SSID "="
+  #define WIFI_PASSWORD ""
+  #define INFLUXDB_URL ""
+  #define INFLUXDB_TOKEN ""
+  #define INFLUXDB_ORG ""
   #define INFLUXDB_BUCKET " "
   // Time zone info
   #define TZ_INFO "UTC1"
