@@ -15,12 +15,6 @@ hideInToc: true
 
 ---
 
-## Motivation
-
-- It is fun
-
----
-
 ## Widget
 
 Shows "realtime" temperature and humidity data in the new dashboard monitor.
