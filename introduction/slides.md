@@ -132,3 +132,23 @@ transition: slide-up
    their data to that.
  * Integrate the CO2 sensors in the office dashboard
  * Play around with <https://www.balena.io/> and a Raspberry Pi
+
+---
+
+# Conclusions
+
+ * Projects done
+   * Raspberry Pi that loggs connected sensors, logs them to an InfluxDB and
+     show values in a Grafana Dashboard
+   * Arduno BLE gadget that shows sensor value on MyAmbiance apps and sends the
+     data to an InfluxDB via WiFi
+ * Stuff used
+   * Sensirion Control Center with various sensors to get things to run
+   * Sensirion Python drivers to write custom scripts
+   * Sensirion Raspberry Pi C drivers to get things to run
+   * Sensirion Arduino BLE library to get a bluetooth gadget running
+ * Hard stuff
+   * Getting sensors to run without a readily available driver was hard, but
+     got it working
+   * Debugging I2C communication issues
+   * Integrating Grafana with InfluxDB
