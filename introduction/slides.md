@@ -131,3 +131,4 @@ transition: slide-up
  * Create a Sensor Dashboard with https://grafana.com/ and let other teams push
    their data to that.
  * Integrate the CO2 sensors in the office dashboard
+ * Play around with <https://www.balena.io/> and a Raspberry Pi
