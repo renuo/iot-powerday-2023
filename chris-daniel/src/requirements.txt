@@ -1,0 +1,6 @@
+Requests==2.31.0
+sensirion_driver_adapters==2.1.9
+sensirion_i2c_driver==1.0.0
+sensirion_i2c_sht4x==1.0.0
+sensirion_shdlc_driver==0.1.5
+sensirion_shdlc_sensorbridge==0.1.1

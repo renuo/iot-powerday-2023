@@ -1,0 +1,11 @@
+{
+  "name": "trh",
+  "version": "0.1.0",
+  "scripts": {
+    "present": "bunx --bun slidev"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.44.0",
+    "@slidev/theme-seriph": "^0.21.3"
+  }
+}
