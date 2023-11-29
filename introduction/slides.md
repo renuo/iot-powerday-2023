@@ -152,3 +152,13 @@ transition: slide-up
      got it working
    * Debugging I2C communication issues
    * Integrating Grafana with InfluxDB
+
+---
+
+# Conlusions II
+
+ * Skills learned
+   * Grafana / InfluxDB
+   * Python
+ * Future Projects
+   * Integrate in our Monitoring Dashboard
