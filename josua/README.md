@@ -9,10 +9,14 @@ would be attached to the pressure relief valve of the fermenting tank.
 Sadly I couldn't get the sensor working on my Mac with USB via the SHDLC cable.
 It wouldn't show up in the Sensirion Control Center.
 
+![](./sdp3x.png)
+
 ## Fallback kit: SLF3S-1300F
 
-I played around with the **liquid** flow sensor
-[SLF3S-1300F](https://sensirion.com/products/catalog/SLF3S-1300F) (SF06 chip).
+So I played around with the **liquid** flow sensor
+[SLF3S-1300F](https://sensirion.com/products/catalog/SLF3S-1300F) (SF06 chip) instead.
+
+![](./slf3s-1300f.png)
 
 ### Hardware setup
 
@@ -20,7 +24,8 @@ I played around with the **liquid** flow sensor
 2. Connect SHDLC cable to Mac via USB.
 3. (Optional) Install [Sensirion Control Center](https://www.sensirion.com/de/produkte/sensor-evaluation/control-center/)
    to test the sensor.
-4. Have relevant data sheets ready:
+   ![](./controlcenter.png)
+5. Have relevant data sheets ready:
    * [SHDLC protocol documentation](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/LQ_AN_RS485SensorCable_ImplementationGuideToSHDLC_EN_1_D2.pdf)
    * [SHDLC command documentation](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/LQ_CO_RS485SensorCable_SHDLC_Commands_D2.pdf)
      Section 2.5 for SF06 (`type=3`)
@@ -92,4 +97,9 @@ with ShdlcSerialPort(port='/dev/cu.usbserial-FT664PUW', baudrate=115200) as port
         flow /= 500
         temp /= 200
         print("raw={} flow={:.3f} temp={:.3f} flags={:016b}".format(raw_response.hex(), flow, temp, sig))
+```
+
+This will produce readings like this:
+```sh
+raw=0001184c0001 flow=0.002 temp=31.100 flags=0000000000000001
 ```
